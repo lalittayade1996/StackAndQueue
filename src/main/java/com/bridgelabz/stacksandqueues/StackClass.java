@@ -19,6 +19,14 @@ public class StackClass {
 		return linkedList.pop();
 	}
 
+	public void enqueue(INode node) {
+		linkedList.append(node);
+	}
+
+	public INode lastestElementOfStack() {
+		return linkedList.head;
+	}
+
 	public void printStack() {
 		linkedList.printNodes();
 	}
